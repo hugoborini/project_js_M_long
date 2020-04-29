@@ -1,0 +1,24 @@
+.title-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  .title {
+    font-size: 2vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    animation: slide_left 1s;
+  }
+}
+
+@keyframes slide_left {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
